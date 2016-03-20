@@ -127,29 +127,20 @@ include vendor/cm/config/themes_common.mk
 
 # Required CM packages
 PRODUCT_PACKAGES += \
-    Development \
     BluetoothExt \
-    Profiles
 
 # Optional CM packages
 PRODUCT_PACKAGES += \
-    VoicePlus \
-    Basic \
-    libemoji \
-    Terminal
+    libemoji
 
 # Custom CM packages
 PRODUCT_PACKAGES += \
-    Launcher3 \
     Trebuchet \
-    AudioFX \
-    CMWallpapers \
     CMFileManager \
     Eleven \
     LockClock \
-    CMUpdater \
-    CMHome \
-    CyanogenSetupWizard
+    CyanogenSetupWizard \
+    CMSettingsProvider
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
