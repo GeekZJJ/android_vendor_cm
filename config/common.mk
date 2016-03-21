@@ -140,7 +140,8 @@ PRODUCT_PACKAGES += \
     Eleven \
     LockClock \
     CyanogenSetupWizard \
-    CMSettingsProvider
+    CMSettingsProvider \
+    WallpaperPicker
 
 # CM Platform Library
 PRODUCT_PACKAGES += \
